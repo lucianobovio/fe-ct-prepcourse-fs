@@ -130,8 +130,6 @@ function buscoInterseccion(array1, array2) {
    // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
    // Tu código:
    res = array1.filter(e => array2.includes(e));
-
-
    return res
 }
 
